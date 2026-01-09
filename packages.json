@@ -1,0 +1,14 @@
+{
+    "packages": {
+        "snahar1/docas-libs": {
+            "v1.0.0": {
+                "name": "snahar1/docas-libs",
+                "version": "v1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/docas-libs/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    }
+}

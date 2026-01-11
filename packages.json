@@ -9,6 +9,106 @@
                     "type": "zip"
                 }
             }
+        },
+        "snahar/curupira-doc": {
+            "1.0.0": {
+                "name": "snahar/curupira-doc",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/curupira-doc/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/vero-env": {
+            "1.0.0": {
+                "name": "snahar/vero-env",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/vero-env/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/banzeiro-logs": {
+            "1.0.0": {
+                "name": "snahar/banzeiro-logs",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/banzeiro-logs/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/camaleao-css": {
+            "1.0.0": {
+                "name": "snahar/camaleao-css",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/camaleao-css/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/curimata-mail": {
+            "1.0.0": {
+                "name": "snahar/curimata-mail",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/curimata-mail/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/egua-do-erro": {
+            "1.0.0": {
+                "name": "snahar/egua-do-erro",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/egua-do-erro/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/estaleiro-view": {
+            "1.0.0": {
+                "name": "snahar/estaleiro-view",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/estaleiro-view/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/iara-security": {
+            "1.0.0": {
+                "name": "snahar/iara-security",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/iara-security/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/marajo-router": {
+            "1.0.0": {
+                "name": "snahar/marajo-router",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/marajo-router/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        "snahar/tucuxi-session": {
+            "1.0.0": {
+                "name": "snahar/tucuxi-session",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/Snahar1/tucuxi-session/archive/refs/heads/main.zip",
+                    "type": "zip"
+                }
+            }
         }
     }
 }

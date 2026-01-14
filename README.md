@@ -1,23 +1,32 @@
-# 🦂 IcoaraciDB — Gerenciador Universal de Banco de Dados
+# 📦 Docas Libs — O Porto do Ecossistema Scorpion
 
-O **IcoaraciDB** é um motor de abstração de banco de dados (DBAL) ultra-leve e expansível, desenvolvido para o ecossistema **Scorpion**. Ele foi projetado para permitir que o desenvolvedor alterne entre diferentes tipos de bancos de dados (SQL e NoSQL) sem alterar a lógica da aplicação.
-
----
-
-## 🚀 Superpoderes
-
-* **Multi-Driver:** Suporte nativo para MySQL (via PDO) e preparado para expansão (MongoDB, PostgreSQL, SQLite).
-* **Query Builder:** Escreva consultas complexas usando métodos encadeados em PHP, sem a necessidade de escrever SQL manualmente.
-* **Integração Nativa Docas:** Totalmente compatível com o gerenciador de dependências Docas.
-* **Arquitetura MVC:** Pronto para ser injetado no `Core\Model` de qualquer sistema.
+O **Docas Libs** é o ponto de partida para qualquer projeto utilizando a arquitetura Scorpion. Ele funciona como um **gerenciador de dependências leve**, responsável por orquestrar a instalação e atualização das bibliotecas modulares da linha JAPURA.
 
 ---
 
-## 📦 Instalação via Docas
+## 🏗️ Arquitetura Modular
+Diferente de frameworks monolíticos, o Scorpion é dividido em módulos independentes. O **Docas Libs** é o "porto" onde esses módulos se encontram.
 
-Adicione o requisito ao seu arquivo `docas.json` local:
+### Bibliotecas Oficiais:
+* [🌿 CurupiraDoc](https://github.com/Snahar1/curupira-doc) - Documentação e Identidade Visual.
+* [🔐 VeroEnv](https://github.com/Snahar1/vero-env) - Gestão de Ambiente e Segurança.
+* [⚓ IcoaraciDB](https://github.com/Snahar1/icoaraci-db) - Persistência de Dados e Queries.
+* [🌊 BanzeiroLogs](https://github.com/Snahar1/banzeiro-logs) - Sistema de Auditoria.
 
+---
+
+## 🚀 Como Iniciar
+
+1. Certifique-se de ter a pasta `sys/` na raiz do seu projeto.
+2. Crie um arquivo `docas.json` definindo quais módulos o seu projeto vai usar.
+
+### Exemplo de `docas.json`:
 ```json
-"require": {
-    "snahar/icoaraci-db": "1.0.0"
+{
+    "name": "MeuProjeto",
+    "require": {
+        "curupira-doc": "1.0.0",
+        "vero-env": "1.0.0",
+        "icoaraci-db": "1.0.0"
+    }
 }

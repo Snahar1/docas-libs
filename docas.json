@@ -6,7 +6,8 @@
         "snahar/curupira-doc": "1.0.0",
         "snahar/vero-env": "1.0.0",
         "snahar/icoaraci-db": "1.0.0",
-        "snahar/banzeiro-logs": "1.0.0"
+        "snahar/banzeiro-logs": "1.0.0",
+        "snahar/iara-security": "1.0.0"
     },
     "config": {
         "vendor-dir": "libs/",

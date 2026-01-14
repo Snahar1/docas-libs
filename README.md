@@ -1,4 +1,5 @@
-# 📦 Docas Libs — O Porto do Ecossistema Scorpion
+# Repositório: docas-libs
+## 📦 Docas Libs — O Porto do Ecossistema Scorpion
 
 O **Docas Libs** é o ponto de partida para qualquer projeto utilizando a arquitetura Scorpion. Ele funciona como um **gerenciador de dependências leve**, responsável por orquestrar a instalação e atualização das bibliotecas modulares da linha JAPURA.
 

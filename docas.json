@@ -1,6 +1,15 @@
 {
-    "name": "snahar/icoaraci-db",
-    "description": "IcoaraciDB - Gerenciador Universal de Bancos de Dados",
+    "name": "scorpion-framework-core",
+    "description": "Configuração padrão do ecossistema JAPURA",
     "version": "1.0.0",
-    "require": {}
+    "require": {
+        "snahar/curupira-doc": "1.0.0",
+        "snahar/vero-env": "1.0.0",
+        "snahar/icoaraci-db": "1.0.0",
+        "snahar/banzeiro-logs": "1.0.0"
+    },
+    "config": {
+        "vendor-dir": "libs/",
+        "sys-dir": "sys/"
+    }
 }
